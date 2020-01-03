@@ -24,7 +24,7 @@ puedes oprimir la tecla Escape **ESC** seguido de **:wq** y **Enter**.
 
 Una vez terminado cada uno de los pasos del dojo se podrá ejecutar con el comando
     
-    clean test aggregate 
+    clean test aggregate -Dusuario=dannybarrientos -DPassword=AquiVoyContigo
     
 Este es el comando que correrá los tests y generará el reporte en la carpeta /target/site/serenity/
 
